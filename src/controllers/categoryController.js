@@ -1,7 +1,5 @@
 const db = require("../models")
 
-const Joi = require("@hapi/joi")
-
 const validators = require('../utilities/validators')
 
 const Category = db.categories
